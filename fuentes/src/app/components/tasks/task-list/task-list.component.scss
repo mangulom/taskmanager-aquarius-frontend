@@ -1,0 +1,124 @@
+body {
+  padding: 20px;
+  background-color: white;
+  /* Amarillo tenue */
+  color: #333;
+  /* Asegúrate de que el texto sea legible */
+  margin: 20px;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  /* Opcional: define una fuente base */
+}
+
+.yellow-button {
+  background-color: orange;
+  color: black;
+  /* Asegúrate de que el texto sea legible */
+}
+
+.button-spacing {
+  margin-right: 10px;
+  /* Espacio a la derecha de cada botón */
+}
+
+::ng-deep .mat-row:hover {
+  background-color: lightblue;
+  /* Cambia este color por el que desees */
+  cursor: pointer;
+  /* Cambia el puntero a una mano */
+}
+
+.task-list-container {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.task-card {
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 16px;
+}
+
+.table-container {
+  display: block;
+  width: 100%;
+  overflow-x: auto;
+  /* Agrega un scroll horizontal si es necesario */
+  margin-bottom: 16px;
+}
+
+table {
+  width: 100%;
+  /* Asegúrate de que la tabla ocupe el ancho completo */
+  min-width: 800px;
+  /* Define un ancho mínimo si hay muchas columnas */
+}
+
+.color-head {
+  background-color: blueviolet;
+  color: white;
+}
+
+.mat-card {
+  width: 100%;
+}
+
+.mat-elevation-z8 {
+  width: 100%;
+  /* Asegúrate de que la tabla material ocupe todo el espacio disponible */
+}
+
+.no-task {
+  text-align: center;
+  padding: 16px;
+}
+
+.no-task mat-icon {
+  font-size: 48px;
+  margin-bottom: 8px;
+}
+
+.add-button {
+  position: fixed;
+  bottom: 16px;
+  right: 16px;
+  z-index: 1000;
+}
+
+.status-container {
+  display: flex;
+  align-items: center;
+  /* Alinea verticalmente */
+  gap: 8px;
+  /* Espacio entre el ícono y el texto */
+}
+
+.status-text {
+  line-height: 1;
+  /* Ajusta la altura de línea del texto */
+}
+
+.align-right {
+  text-align: right;
+  /* Alinea el contenido a la derecha */
+}
+
+.mat-header-cell,
+.mat-cell {
+  padding-right: 16px;
+  /* Ajusta el espacio a la derecha para una mejor visualización */
+}
+
+.spinner {
+  border: 8px solid #f3f3f3; /* Color del fondo */
+  border-top: 8px solid #3498db; /* Color del spinner */
+  border-radius: 50%;
+  width: 40px; /* Tamaño del spinner */
+  height: 40px; /* Tamaño del spinner */
+  animation: spin 1s linear infinite; /* Animación */
+  margin: 20px auto; /* Centrar el spinner */
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}

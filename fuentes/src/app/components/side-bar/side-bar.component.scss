@@ -1,0 +1,10 @@
+/* Alinea elementos dentro del mat-toolbar */
+.spacer {
+  flex: 1; /* Empuja el siguiente elemento hacia la derecha */
+}
+
+/* Asegura que el icono sea blanco */
+button mat-icon {
+  color: white;
+}
+

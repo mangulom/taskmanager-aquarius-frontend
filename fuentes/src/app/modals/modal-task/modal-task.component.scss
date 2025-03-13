@@ -1,0 +1,45 @@
+/* Estilo para el contenido del modal */
+.custom-dialog-container {
+    background-color: #FFF9C4;  /* Amarillo tenue */
+    border-radius: 10px;         /* Bordes redondeados */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);  /* Sombra suave */
+    padding: 20px;
+  }
+  
+  /* Estilo para el encabezado */
+  mat-dialog-title {
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  /* Estilo para los campos de formulario */
+  mat-form-field {
+    width: 100%;
+    margin-bottom: 8px;
+  }
+  
+  /* Estilo para los botones */
+  ::ng-deep mat-dialog-actions {
+    display: flex !important;
+    justify-content: flex-end !important;
+    gap: 10px !important;
+  }
+
+  .input-row {
+    display: flex;
+    gap: 16px; /* Espacio entre los inputs */
+    margin-bottom: 16px;
+  }
+  
+  .input-row mat-form-field {
+    flex: 1; /* Ocupa el mismo ancho */
+  }
+  
+  @media (max-width: 600px) {
+    .input-row {
+      flex-direction: column;
+    }
+  }
+  

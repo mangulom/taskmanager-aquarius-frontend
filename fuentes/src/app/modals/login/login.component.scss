@@ -1,0 +1,47 @@
+.login-container {
+    max-width: 450px; /* Ajusta el ancho según lo necesites */
+    margin: auto; /* Centra el contenedor */
+    margin-top: 30px;
+    padding: 20px; /* Espaciado interno */
+    border: 1px solid #ccc; /* Borde */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra */
+    background-color: #fff; /* Fondo blanco */
+  }
+  
+  .form-field {
+    margin-bottom: 15px; /* Espacio entre campos */
+  }
+  
+  label {
+    display: block; /* Hacer que la etiqueta ocupe todo el ancho */
+    margin-bottom: 5px; /* Espacio entre la etiqueta y el campo */
+  }
+  
+  input {
+    width: 100%; /* Campo ocupa todo el ancho */
+    padding: 8px; /* Reduce el espaciado interno */
+    border: 1px solid #ccc; /* Borde */
+    border-radius: 4px; /* Bordes redondeados */
+    font-size: 14px; /* Tamaño de fuente más pequeño */
+    box-sizing: border-box; /* Asegura que el padding no afecte el ancho */
+  }
+  
+  button {
+    width: 100%; /* Botón ocupa todo el ancho */
+    padding: 10px; /* Espaciado interno */
+    background-color: #007bff; /* Color de fondo */
+    color: white; /* Color del texto */
+    border: none; /* Sin borde */
+    border-radius: 4px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor al pasar por encima */
+  }
+  
+  button:disabled {
+    background-color: #ccc; /* Color de fondo cuando está deshabilitado */
+  }
+  
+  .error {
+    color: red; /* Color rojo para mensajes de error */
+    font-size: 0.8em; /* Tamaño de fuente más pequeño */
+  }
